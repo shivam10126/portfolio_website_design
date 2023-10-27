@@ -1,0 +1,350 @@
+
+/* .navbar ul li a:focus {
+    color: rgb(21, 214, 101);
+    text-underline-offset: 7px;
+    text-decoration: underline;
+} */
+
+.navbar ul li a:hover {
+    color: rgb(111, 237, 149);
+    text-underline-offset: 7px;
+    text-decoration: underline;
+    transition: all 0.13s ease-in;
+}
+
+/* skill section */
+#skill:hover{
+    color: transparent;
+
+}
+
+
+
+.html {
+    position: absolute;
+    width: 7%;
+    color: white;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+    border: 3px solid transparent;
+    opacity: 0;
+    
+    
+}
+.html:hover{
+    opacity: 1;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.Illustrator {
+    position: absolute;
+    width: 7%;
+    color: white;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+    border: 3px solid transparent;
+    opacity: 0;
+    
+    
+}
+.Illustrator:hover{
+    opacity: 1;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+.border::after
+{
+    content: "";
+    border: 3px solid rgb(111, 237, 149);
+    position: absolute;
+    /* background-color: rgb(19, 19, 19); */
+    top: -4.5px;
+    left: -1px;
+    /* left: 0; */
+    width: 320px;
+    height: 104%;
+    border-radius: 14px;
+    /* display: none; */
+}
+
+@keyframes grow {
+    from {
+        width: 70px;
+        ;
+    }
+    
+    to {
+        width: 270px;
+    }
+}
+
+.css {
+    position: absolute;
+    width: 7%;
+    color: white;
+    z-index: 2;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+    border: 3px solid transparent;
+    opacity: 0;
+}
+.css:hover{
+    opacity: 1;
+    animation-name:css;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes css {
+    from {
+        width: 70px;
+        ;
+    }
+    
+    to {
+        width: 224px;
+    }
+}
+
+.Illustrator {
+    border: 3px solid transparent;
+    position: absolute;
+    width: 7%;
+    color: white;
+    z-index: 2;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+ opacity: 0;
+}
+.Illustrator:hover{
+    opacity: 1;
+    animation-name:Illustrator;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Illustrator {
+    from {
+        width: 70px;
+        ;
+    }
+    
+    to {
+        width: 208px;
+    }
+}
+
+.Figma {
+    border: 3px solid transparent;
+    position: absolute;
+    width: 7%;
+    color: white;
+    z-index: 2;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+    opacity: 0;
+}
+.Figma:hover{
+    opacity: 1;
+    animation-name:Figma;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Figma {
+    from {
+        width: 70px;
+        ;
+    }
+    
+    to {
+        width: 166px;
+    }
+}
+
+.Canva {
+    position: absolute;
+    border: 3px solid transparent;
+    width: 7%;
+    color: white;
+    z-index: 2;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+    opacity: 0;
+}
+.Canva:hover{
+    opacity: 1;
+    animation-name:Canva;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Canva {
+    from {
+        width: 70px;
+        ;
+    }
+    
+    to {
+        width: 192px;
+    }
+}
+
+
+.Sketching {
+    position: absolute;
+    border: 3px solid transparent;
+    width: 7%;
+    color: white;
+    z-index: 2;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+   opacity: 0;
+}
+.Sketching:hover{
+    opacity: 1;
+    animation-name:Sketching;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Sketching {
+    from {
+        width: 70px;
+        ;
+    }
+    
+    to {
+        width: 192px;
+    }
+}
+
+.Typography {
+    border: 3px solid transparent;
+    position: absolute;
+    width: 7%;
+    color: white;
+    z-index: 2;
+    background-color: rgb(111, 237, 149);
+    border-radius: 12px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 13px;
+ opacity: 0;
+}
+.Typography:hover{
+    opacity: 1;
+    animation-name:Typography;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Typography {
+    from {
+        width: 70px;
+        ;
+    }
+    
+    to {
+        width: 200px;
+    }
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #000000;
+    color: black;
+  }
+  .flip-card-back p {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .flip-card-back h1 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 3px;
+
+  }
+
+  
+  .flip-card-back {
+    background-color: rgb(111, 237, 149);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+
+
+
+.side:hover {
+
+    animation: up .31s ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes up {
+    from {}
+
+    to {
+        position: relative;
+        left: 9px;
+       text-shadow: rgb(111, 237, 149) 0px 0px 10px;
+        font-weight: bold;
+    }
+}
+
